@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/db59a2caec.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <h1>Mis tareas</h1>
+
+        <label for="tareas">Nueva Tarea</label>
+        <div class="form-row">
+            <input id="addTodo" type="text" placeholder="Nombre de tarea" name="tareas"> <button id="addButton"><i class="fa-solid fa-plus"></i> Agregar </button>
+        </div>
+        
+    
+    
+        <div class="list-wrapper">
+            <div class="list-header">
+                
+                <div class="id col">
+                    ID
+                </div>
+    
+                <div class="title col">
+                    Tarea
+                </div>
+    
+            </div>
+    
+    
+            <ul class="list">
+    
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
